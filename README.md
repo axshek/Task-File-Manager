@@ -1,62 +1,19 @@
-**Task File Manager (Node.js)**
-A simple file-based task creator built using Node.js, initialized with npx, and run using Nodemon. This project allows users to create, edit, rename, and delete .txt files dynamically — simulating a basic task management system using the local file system.
 
-🚀 Features
-📝 Create .txt files with a custom filename.
 
-✏️ Edit content inside existing .txt files.
+Make sure you have the following installed:
+Node.js (v14 or higher recommended)
+npm (comes with Node.js)
 
-🔁 Rename any file to a new name.
+**FOLLOW THESE STEPS-**
+1. Clone the repository
 
-❌ Delete files you no longer need.
+2. You have to download node.
 
-🔄 Automatic server reload using Nodemon.
+3. Install node modules using this commands:
 
-🛠️ Tech Stack
-Node.js
+  npm install
 
-Nodemon
+  npx nodemon index.js
 
-Built-in Node.js fs module
-
-📦 Installation & Usage
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install dependencies:
-
-nginx
-Copy
-Edit
-npm install
-Run the application with Nodemon:
-
-nginx
-Copy
-Edit
-npx nodemon index.js
-Replace index.js with your actual main file if different.
-
-How it works:
-
-Enter a filename to create a .txt file.
-
-Edit the file’s content using prompts or interface.
-
-Rename the file to a new name.
-
-Delete the file if it's no longer needed.
-
-📁 Folder Structure
-pgsql
-Copy
-Edit
-your-project/
-├── node_modules/
-├── index.js         # Main application logic
-├── package.json
-└── README.md
+4. Open your browser and visit:
+http://localhost:3000
